@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Journey - 8-Bit Style</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <style>
+        .image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .journey-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 4px solid #000;
+            background: #eee;
+        }
+        .button-row {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="eightbit-box">
+            <div class="image-container">
+                <img id="journeyImg" src="pixel1.png" alt="Journey 1" class="journey-img">
+            </div>
+            <div class="button-row">
+                <button id="prevBtn" class="eightbit-btn" style="display:none;">Preview</button>
+                <button id="nextBtn" class="eightbit-btn">Next</button>
+            </div>
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
